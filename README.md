@@ -1,5 +1,15 @@
 # Project Description
 
+EK 125 Fall 2017 Final Project
+
+History of Land Temperatures from 1900-2013
+By Country, City, US State
+
+Ayush Upneja
+Sanjana Srisakulchawla
+
+
+
 ## Background:
 Our application is designed to provide people with a history of land temperatures in nearly every country and city in the world.  If one Google searches climate change in different countries, it’s impossible to quickly find mass data analysis for so many countries in a straightforward program. There is a lot of data to sift through, and skewed studies to stray away from. Thus, we created our application which is designed to be as ergonomic and simple as possible.
 
@@ -14,28 +24,28 @@ When the user clicks the “Choose US State” in either the Cities Tab or the C
 
 # Requirements
 
-Reading and analyzing a data set of substantial size (minimum 100,000 data points)
-4 functions outside the app with 3 types of reading in data;
-Reading in Cities from GlobalLandTemperaturesByCity
-Line 8 in country2cities() function
-Line 9 in cityData() function
-Reading in Countries from GlobalLandTemperaturesbyCountry
-Line 9 in globalCountry() function
-Reading in States from GlobalLandTemperaturesbyState
-Line 9 in usStates() function
-Writing to a file using fprintf
-3 functions inside the app
-Lines 99-103 - opening file, printing user’s chosen city, min and max temperatures for 1900 and 2013 of city, closing file
-Lines 134-139 - opening file, printing user’s chosen country, min and max temperatures for 1900 and 2013 of country, closing file
-Lines 158-162 - opening file, printing user’s chosen state, min and max temperatures for 1900 and 2013 of state, closing file
-Plotting meaningful data points relevant to the problem
-Plotting Average Temperatures for City inside the app
-Lines 112-124  - Clears graphs, plots data, titles graph, sets x and y labels, sets axes
-Plotting Average Temperatures for Country inside the app
-Lines 141-148 - Plots data and holds, sets axes
-Plotting Average Temperatures for State inside the app
-Line 156 - Clears graph
-Lines 178-186 - Plots data, sets x and y labels, titles graph, holds data 
+* Reading and analyzing a data set of substantial size (minimum 100,000 data points)
+* 4 functions outside the app with 3 types of reading in data;
+* Reading in Cities from GlobalLandTemperaturesByCity
+* Line 8 in country2cities() function
+* Line 9 in cityData() function
+* Reading in Countries from GlobalLandTemperaturesbyCountry
+* Line 9 in globalCountry() function
+* Reading in States from GlobalLandTemperaturesbyState
+* Line 9 in usStates() function
+* Writing to a file using fprintf
+* 3 functions inside the app
+* Lines 99-103 - opening file, printing user’s chosen city, min and max temperatures for 1900 and 2013 of city, closing file
+* Lines 134-139 - opening file, printing user’s chosen country, min and max temperatures for 1900 and 2013 of country, closing file
+* Lines 158-162 - opening file, printing user’s chosen state, min and max temperatures for 1900 and 2013 of state, closing file
+* Plotting meaningful data points relevant to the problem
+* Plotting Average Temperatures for City inside the app
+* Lines 112-124  - Clears graphs, plots data, titles graph, sets x and y labels, sets axes
+* Plotting Average Temperatures for Country inside the app
+* Lines 141-148 - Plots data and holds, sets axes
+* Plotting Average Temperatures for State inside the app
+* Line 156 - Clears graph
+* Lines 178-186 - Plots data, sets x and y labels, titles graph, holds data 
 
 # Tutorial
 
